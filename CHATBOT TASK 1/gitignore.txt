@@ -1,0 +1,50 @@
+Standard template for Python projects (Task 1: Rule-Based Chatbot)
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Distribution / packaging
+
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+htmlcov/
+.nox/
+.tox/
+
+Virtual environment files
+
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+Testing
+
+.pytest_cache/
+
+Editor/OS temporary files
+
+*~
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+Jupyter / Databricks / VS Code Notebooks
+
+.ipynb_checkpoints
+
+AI/ML Specific temporary files (if model training was involved later)
+
+*.pkl
+*.bin
+*.model
+*.pt

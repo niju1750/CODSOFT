@@ -1,0 +1,43 @@
+Standard .gitignore template for AI and Python Projects (Task 2: Tic-Tac-Toe AI)
+
+--- Virtual Environment Files ---
+
+Ignore virtual environment folders used by Python
+
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+--- Byte-compiled / Optimized / Python Files ---
+
+Ignore compiled Python bytecode and distribution artifacts
+
+pycache/
+*.py[cod]
+dist/
+build/
+
+--- Temporary and Editor Files ---
+
+Ignore operating system and editor temporary files
+
+*~
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/ # VS Code settings files
+
+--- AI/ML Specific Temporary Files ---
+
+Ignore model checkpoints, trained weights, and large data caches
+
+*.pkl
+*.bin
+*.model
+*.pt
+*.onnx
+*.h5

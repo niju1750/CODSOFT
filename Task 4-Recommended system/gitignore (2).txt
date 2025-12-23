@@ -1,0 +1,38 @@
+1. Byte-compiled / optimized / dynamically loaded files
+# --------------------------------------------------------
+*.pyc
+__pycache__/
+*.pyd
+*.so
+
+# 2. Virtual Environment (Crucial for collaboration)
+# --------------------------------------------------
+# Ignore virtual environment folders (e.g., created by venv or conda)
+venv/
+env/
+.venv/
+.conda/
+.eggs/
+
+# 3. Installer / Packaging files
+# ------------------------------
+*.egg
+build/
+dist/
+
+# 4. OS/IDE generated files
+# -------------------------
+.DS_Store # macOS system files
+Thumbs.db # Windows thumbnail cache
+.idea/    # JetBrains IDE (PyCharm, IntelliJ) settings
+*.swp     # Vim swap files
+*~        # Temporary files
+
+# 5. Data files / Output that should not be committed
+# ----------------------------------------------------
+# If your script generates large output files or saves models, ignore them here.
+# For a simple recommendation system, you might generate CSVs or model files.
+output/
+*.csv
+*.model
+*.pkl
